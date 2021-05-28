@@ -2,12 +2,6 @@
 
 name: '$(Date:yyyyMMdd)$(Rev:.r)'
 
-resources:
-  repositories:
-    - repository: 'FastCarzMigration'
-      type: 'github'
-      name: 'Azure/FastCarzMigration'
-
 # Trigger build when branches are updated
 trigger:
   branches:
@@ -18,7 +12,6 @@ pool:
   
 variables:
   buildConfiguration: 'Release'
-
 
 # Agent jobs
 stages:
