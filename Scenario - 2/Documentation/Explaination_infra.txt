@@ -1,0 +1,12 @@
+We will need to create terraform files (.tf files) for provisioning infrastructure
+Files we need to create :
+modules with diff required infrastrure
+Vnet
+ 2 Subnet
+ NSG to open port 80 and 443
+ 1 Window VM in each subnet
+ 1 Storage account
+
+We need to create yaml file to create ci pipeline which will run tf code and apply the infrastructure
+
+We can use vs code tool for creating above files.
